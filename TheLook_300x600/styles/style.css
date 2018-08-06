@@ -1,0 +1,145 @@
+
+/* setup */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0; }
+
+.hide {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important; }
+
+
+img {
+  position: absolute; }
+
+#ad_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Banner Styles */
+.banner {
+  position: relative;
+  /*margin-left: auto;
+  margin-right: auto;
+  margin-top: 54px;*/
+  width: 300px;
+  height: 600px;
+  border: solid 1px;
+  overflow: hidden;
+   }
+   
+  .banner .bannerClick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+/*    background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"); */
+ }
+
+  .banner #bg {
+    position: absolute;
+	   top: 0px;
+    left: 0px;  
+    }
+
+  .banner #kate_bg {
+    position: absolute;
+	/*opacity:.25;*/   
+    }
+
+  .banner #radar {
+    position: absolute;
+	top: -5px;
+    left:   0px;  
+    }
+
+  .banner #arrows {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    }
+
+  .banner #title1 {
+    position: absolute;
+	top: 60px;
+    left: -200px;  
+    }
+
+  .banner #title2 {
+    position: absolute;
+	top: -25px;
+    left: 223px;  
+    }
+
+  .banner #title3 {
+    position: absolute;
+	top: -30px;
+    left: -190px;  
+    }
+
+  .banner #title_crown {
+    position: absolute;
+	top: -80px;
+    left: 0px;  
+    }
+
+  .banner #mobile {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    }
+  
+   .banner #endFrameContainer {
+    position: absolute;
+    width: 300px;
+    height: 600px; }
+	
+ 
+    .banner #endFrameContainer #endFrameText {
+	position: absolute;
+	font-family: "ciscosansitalic";
+	line-height: 23px;
+	font-size: 22px;
+	font-weight: 400;
+	top: 319px;
+	left: 57px;
+	color: #fff;
+    text-align: center;
+}
+	  
+
+    .banner #endFrameContainer #logoRimmel {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+    .banner #endFrameContainer #GTRL_app {
+	position: absolute;
+	left: 125px;
+	bottom: 0px;
+}
+
+#iphone  {
+  position: absolute;
+  top: 61px;
+  left: 54px;
+}

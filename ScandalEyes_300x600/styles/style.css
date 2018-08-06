@@ -1,0 +1,125 @@
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+   /*outline: 0;*/
+}
+
+/*button {
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}*/
+#ad_wrapper {
+  position: absolute;
+  /*background-color:#f4f4f4; */
+  width: 100%;
+  height: 100%;
+}
+
+#ad-container {
+  position: relative;
+/*  top: 0px !important;
+  left: 0px !important;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*margin-top: 54px;*/
+  width: 300px;
+  height: 600px;
+  border: solid 1px;
+  overflow: hidden;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/* --------------------------------- CLICKTHROUGH HERE*/
+#clickthrough-button  {
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+  top: 0px !important;
+  left: 0px !important;
+  opacity:0;
+  cursor: pointer;
+  z-index:6;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.pos  {
+  position: absolute;
+}
+
+#bg {
+  top: 0px;
+  left: 0px;  
+}
+
+#cara_flat  {
+  bottom: -5px;
+}
+
+#cara_blur  {
+  bottom: -5px;
+}
+
+.half-size  {
+  -ms-transform: scale(0.5, 0.5); /* IE 9 */
+  -webkit-transform: scale(0.5, 0.5); /* Safari */
+  transform: scale(0.5, 0.5);
+}
+
+#logo {
+  top: 0px;
+  left: 0px;  
+}
+
+#cta {
+  bottom: 25px;
+  right: 25px;  
+}
+
+#packshot {
+  bottom: -5px; 
+  /*left: 1px;  */
+}
+
+#text2 {
+  top: 175px;
+  /*left: 91px;  */
+}
+
+
+#mask_container {
+  top: 62px;
+  left: 6px;
+}
+
+#mask {
+  position: relative;
+  overflow: hidden;
+  /*top: 62px;*/
+  width: 288px; 
+  height: 94px;
+  /*background-color:powderblue;*/
+}
+
+#volume {
+  position: relative;
+  /*left:86px;*/
+}
+
+#text3  {
+  top: 345px;
+  /*left: 97px; */
+}
+
